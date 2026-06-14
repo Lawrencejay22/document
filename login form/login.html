@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="background-circles">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+    
+    <div class="login-container">
+        <form action="login.html" method="POST" id="loginForm">
+            <div class="form-header">
+                <h3>Welcome Back</h3>
+                <p>Please enter your details to sign in.</p>
+            </div>
+
+            <div class="input-group">
+                <label for="username">Username</label>
+                <div class="input-field">
+                    <input type="text" id="username" name="username" required placeholder="Enter your username">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Password</label>
+                <div class="input-field">
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-login">Login</button>
+            </div>
+            
+            <div class="links">
+                <a href="register.html">Don't have an account? Register</a>
+                <a href="forgot-password.html">Forgot Password?</a>
+                <a href="index.html" class="home-link">Go back to home page</a>
+            </div>
+
+            <div class="social-login">
+                <p>Or continue with</p>
+                <div class="icons">
+                    <a href="https://myaccount.google.com/signin" class="social-icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
